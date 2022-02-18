@@ -87,7 +87,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10%;
+    padding: 2rem;
     background-color:rgb(51, 51, 51);
     border-radius: 0 0 1.87rem 1.87rem;
 }
