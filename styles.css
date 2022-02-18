@@ -50,7 +50,7 @@ span {
 /*Nav bar*/
 
 
-nav{
+.main-nav{
     grid-area: nav;
     display: flex;
     position:sticky;
@@ -425,6 +425,9 @@ footer{
         flex-direction: column;
         justify-content: center;
         text-align: center;
+    }
+    .main-nav{
+        flex-direction: column;
     }
     
 
