@@ -82,7 +82,7 @@ span {
 header{
     grid-area: header;
     height:auto;
-    width:calc(80%-20%);
+    width:calc(100%-20%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -420,7 +420,7 @@ footer{
 }
 
 @media only screen and(max-width: 480px) {
-    .row,.main-nav {
+    .row,  .main-nav {
         flex-direction: column;
         justify-content: center;
         text-align: center;
@@ -432,14 +432,9 @@ footer{
     .heading hgroup h1 h2{
         font-size: 1rem;
     }
-    .img-heading{
-        width:9.37rem;
-        height:9.37rem;
-        
-    }
-    header img{
-        width:9.37rem;
-        height:9.37rem;
+    header{
+        display: flex;
+        flex-direction: column;
     }
     .card{
         width:9.37rem;
