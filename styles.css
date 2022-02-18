@@ -421,11 +421,18 @@ footer{
     text-align: center;
 }
 
-@media only screen and(max-width: 480) {
-    .row, nav {
+@media only screen and(max-width: 480px) {
+    .row {
         flex-direction: column;
         justify-content: center;
         text-align: center;
+    }
+    nav{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
     }
     h1, h2, p{
         font-size: 1rem;
