@@ -439,14 +439,7 @@ footer{
     header img{
         display: none;
     }
-    .card{
-        width:9.37rem;
-        height:9.37rem;
-    }
-    .card img{
-        width:9.37rem;
-        height:9.37rem;
-    }
+    
 
     form{
         width: 100%;
