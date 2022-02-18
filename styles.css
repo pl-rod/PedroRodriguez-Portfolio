@@ -454,4 +454,8 @@ footer{
         display: none;
     }
 
-}
+    form{
+        width:100%;
+        }
+    }
+
