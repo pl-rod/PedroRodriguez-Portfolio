@@ -418,3 +418,34 @@ footer{
     padding:0;
     text-align: center;
 }
+
+@media only screen and(max-width: 480) {
+    .row, nav{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    h1, h2, p{
+        font-size: 1rem;
+    }
+    .img-heading{
+        width:9.37rem;
+        height:9.37rem;
+    }
+    header img{
+        width:9.37rem;
+        height:9.37rem;
+    }
+    .card{
+        width:9.37rem;
+        height:9.37rem;
+    }
+    .card img{
+        width:9.37rem;
+        height:9.37rem;
+    }
+    .card:hover{
+        display: none;
+    }
+
+}
