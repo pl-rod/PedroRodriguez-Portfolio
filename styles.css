@@ -53,6 +53,7 @@ span {
 nav{
     grid-area: nav;
     display: flex;
+    flex-wrap: wrap;
     position:sticky;
     top:0;
     justify-content: flex-end;
@@ -430,7 +431,7 @@ footer{
         font-size: 1rem;
     }
     .heading hgroup h1 h2{
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     .img-heading{
         width:9.37rem;
