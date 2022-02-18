@@ -422,7 +422,7 @@ footer{
 }
 
 @media only screen and(max-width: 480) {
-    .row, nav{
+    .row, nav a{
         flex-direction: column;
         justify-content: center;
         text-align: center;
@@ -436,7 +436,7 @@ footer{
     .img-heading{
         width:9.37rem;
         height:9.37rem;
-        margin-left: 2rem;
+        margin-left:0;
     }
     header img{
         width:9.37rem;
