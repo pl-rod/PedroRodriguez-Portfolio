@@ -108,6 +108,9 @@ header img{
     border-radius: 50%;
     border:rgb(26, 188, 156) solid 3px; ;
 }
+.heading{
+    width:100%;
+}
 
 
 section{
@@ -451,7 +454,7 @@ footer{
     }
 
     form{
-        width:100%;
+        width: 100%;
         }
     }
 
