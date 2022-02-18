@@ -33,17 +33,17 @@ span {
 .container{
     display: grid;
     height:100vh;
-    grid-template-columns: 0.5fr 1fr 1fr 0.5fr;
+    grid-template-columns:  1fr ;
     grid-template-rows: 0.2fr 1.5fr 1fr 1fr 1fr 1fr 0.2fr 0.1fr;
     grid-template-areas:
-    "nav nav nav nav"
-    "header header header header"
-    "skills skills skills skills"
-    "aboutMe aboutMe aboutMe aboutMe"
-    "projects projects projects projects"
-    "contact contact contact contact"
-    "links links links links"
-    "footer footer footer footer";
+    "nav"
+    "header"
+    "skills"
+    "aboutMe"
+    "projects"
+    "contact"
+    "links"
+    "footer";
 }
 
 
@@ -89,7 +89,7 @@ header{
     padding: 2rem;
     background-color:rgb(51, 51, 51);
     border-radius: 0 0 1.87rem 1.87rem;
-    overflow:hidden;
+    
 }
 
 header h2{
