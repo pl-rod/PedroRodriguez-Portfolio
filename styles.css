@@ -81,8 +81,7 @@ span {
 
 header{
     grid-area: header;
-    height:600px;
-    width:calc(100%-20%);
+    width:calc(80%-20%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -429,7 +428,6 @@ footer{
     h1, h2, p{
         font-size: 1.5rem;
     }
-    
     
 
     header img{
