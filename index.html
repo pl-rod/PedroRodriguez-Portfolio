@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Courier+Prime&family=Indie+Flower&display=swap" rel="stylesheet">
+<script src="https://polyfill.io/v3/polyfill.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+                <!--Navigation bar-->
+            <nav>
+                <a href="#skills">Skills</a>
+                <a href="#about">About me</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#info">Contact</a>
+            </nav>
+
+            <!--Banner-->
+
+            <header>
+
+                <div class="heading">
+                    <hgroup>
+                        <h1>Pedro Rodríguez</h1>
+                        <h2> -Frontend Developer</h2>
+                    </hgroup>
+                </div>
+
+                <div class="img-heading">
+                    <img src="resources/images/IMG_20220120_143423.jpg" alt="">
+                </div>
+
+            </header>
+
+            <!--content of the website-->
+
+            
+            
+            <!--sliding bar-->
+
+                <section class="skills">
+                    <h2 id="skills">Skills</h2>
+
+        <div class="sliding-bar-container">
+            
+            <div class="progress-container">
+                <span class="name">
+                    <i class="fab fa-html5"></i> 
+                    HTML 
+    
+                </span>
+                <div class="progress">
+                    <span class="progress-width html">&nbsp;</span>
+                </div>
+            </div>
+    
+            <div class="progress-container">
+                <span class="name">
+                    <i class="fab fa-css3-alt">&nbsp;</i>CSS
+                </span>
+                <div class="progress">
+                    <span class="progress-width css">&nbsp;  </span>   
+                </div>
+            </div>
+    
+            <div class="progress-container">
+                <span class="name">
+                    <i class="fab fa-js-square">&nbsp;</i>JavaScript
+                </span>
+                <div class="progress">
+                    <span class="progress-width javascript">&nbsp;</span>   
+                </div>
+            </div>
+        </div>
+                </section>
+
+                <!--Information about me-->
+
+                <section class="aboutMe">
+
+                        <h2 id="about">About Me</h2>
+                        
+                <div class="about-me">
+                    <p>Hello, I´m <span>Pedro</span>. A frontend developer, originally from Venezuela now based in Berlin, Germany.</p>
+                        <br> 
+                        <p>Constantly studying, practicing and developing in <span>HTML5, CSS3, JavaScript</span> and other technologies related to web development. Currently exploring <span>React</span>.
+                        </p>
+                        <br>
+                        <p>A heap of experience in gastronomy as Waiter and Bartender collected over the past seven years. 
+                        I always felt fascinated by web development, to create and control this small world that lives in a website or an app, even learned <span>DreamWeaver !</span> Back in the days, I know right?</p>
+                        <br>
+                        <p>Two years ago I decided to pursue my dream of becoming a <span>web developer</span>. While working full-time at the restaurant, I enrolled myself in various courses mainly through <span>Codecademy </span> (among others).</p>
+                        <br>
+                        <P> I am fully committed to learn new technologies and creating <span>clean, accessible, responsive and reusable </span> code in order to achieve my goals to start and nourish a <span>successful career</span> in the tech world.</p>
+                
+            </div>
+            
+                </section>
+
+                <!--Projects Image Gallery-->
+
+                <section class="projects">
+                    <h2 id="portfolio">Projects</h2>
+                    <div class="row">
+                        <div class="column">
+                            <div class="card pch">
+                                <a href="https://pl-rod.github.io/ProductCardHoveringDescription/" target="_blank"><img src="resources/images/card-hover-info.png" alt="image hovering card"></a>
+                            </div>
+
+                            <div class="card cb">
+                                <a href="https://pl-rod.github.io/choreBot/" target="_blank"><img src="resources/images/chorebot.png" alt="javaScript door game"></a>
+                            </div>
+                        </div>
+
+                        <div class="column">
+                            <div class="card ca">
+                                <a href="https://pl-rod.github.io/ColmarAcademy/" target="_blank"><img src="resources/images/colmar-static-homepage.png" alt="static website"></a>
+                            </div>
+    
+                            <div class="card ex">
+                                <a href="https://pl-rod.github.io/excursion/" target="_blank"><img src="resources/images/excursion-landing-page.png" alt="Landing app page"></a>
+                            </div>
+                        </div>
+
+                        <div class="column">
+                            <div class="card sb">
+                                <a href="https://pl-rod.github.io/sliding-bar" target="_blank"><img src="resources/images/sliding-bar.png" alt="progress bar"></a>
+                            </div>
+
+
+                            <div class="card srs">
+                                <a href="https://pl-rod.github.io/StarRatingSystem/" target="_blank"><img src="resources/images/star-raiting.png" alt="rating system project"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+
+                <!--contact Information-->
+
+                <section class="contact">
+
+                    <div class="button" onclick="show_hide()">
+                        <h2 id="info">Contact</h2> 
+                    </div>
+                    <div  id="contact_f"  class="contact-form" >
+                        <div>
+                            <h2>Leave me a message!</h2>
+                        </div>
+                        <form action="https://formsubmit.co/1773d960df75d0695b86bd5f6786fce0" method="POST">
+                            <input type="text" name="name" placeholder="Name / Company" required>
+                            <br>
+                            <input type="email" name="email" placeholder="Email Address" required>
+                            <br>
+                            <textarea class="text-box" name="message" placeholder="Message"required>
+                            </textarea>
+                    
+                            <input type="hidden" name="_subject" value="Portfolio email">
+                            <br>
+                            <button type="submit"><p>Send</p></button>
+                            <br>
+                        </form>
+                    </div>
+                    
+                </section>
+
+                <!--Social links-->
+
+                <section class="links">
+                    
+                    <nav class="social-links">
+                        <a href="https://www.linkedin.com/in/pl-rod/" target="_blank">LinkedIN</a>
+                        <a href="https://github.com/pl-rod" target="_blank">GitHuB</a>
+                        <a href="resources/images/Front-end dev Resume.pdf" target="_blank">Resume</a>
+                
+                    </nav>
+                <section/>
+
+            
+            <!--Copy Rights-->
+            <footer>
+                &copy; Pedro Rodríguez 2022
+            </footer>
+
+        </div>
+        
+        <script src="index.js" async defer></script>
+    </body>
+</html>
