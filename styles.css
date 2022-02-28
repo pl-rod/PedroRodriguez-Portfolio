@@ -35,7 +35,7 @@ span {
     display: grid;
     height:100vh;
     width:100%;
-    background-color:rgb(226, 224, 224); 
+    background-color:rgb(247, 240, 240); 
     grid-template-columns:  1fr ;
     grid-template-rows: 0.2fr 1.5fr 1fr 1fr 1fr 1fr 0.2fr 0.1fr;
     grid-template-areas:
@@ -113,7 +113,7 @@ header img{
 section{
     width:calc(100%-2rem);
     padding: 2rem;
-    background-color: rgb(226, 224, 224);
+    background-color: rgb(202, 200, 200);
     
 }
 
@@ -121,6 +121,7 @@ section{
 /*Sliding Bar*/
 .skills{
     grid-area: skills;
+    margin:1rem 0;
 }
 
 .skills p{
@@ -222,6 +223,7 @@ progress-width::after{
 
 .aboutMe{
     grid-area: aboutMe;
+    margin: 1rem 0;
 }
 .about-me{
     justify-content: center;
