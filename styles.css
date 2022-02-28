@@ -416,7 +416,7 @@ footer{
 }
 
 @media only screen and (max-width: 480px) {
-    .row,  .main-nav {
+    .row,  .main-nav, header{
         flex-direction: column;
         justify-content: center;
         text-align: center;
@@ -436,10 +436,7 @@ footer{
 
     }
     
-    header{
-        flex-direction: column;
-        text-align: center;
-    }
+    
 
     .img-heading{
         margin-left: 0;
@@ -455,7 +452,7 @@ footer{
     }
 
     .about-me{
-        margin: 2.5rem ;
+        margin: 2rem 2.5rem ;
     }
 
     
