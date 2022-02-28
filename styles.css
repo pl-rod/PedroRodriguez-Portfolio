@@ -442,6 +442,7 @@ footer{
     
     header{
         flex-direction: column;
+        text-align: center;
     }
 
     .img-heading{
