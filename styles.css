@@ -418,7 +418,7 @@ footer{
     text-align: center;
 }
 
-@media (max-width: 480px) {
+@media only screen and (max-width: 480px) {
     .row,  .main-nav {
         flex-direction: column;
         justify-content: center;
@@ -429,10 +429,11 @@ footer{
         font-size: 1.5rem;
     }
     
-
-    header img{
-        display: none;
+    header{
+        flex-direction: column;
     }
+
+
     
 
     form{
