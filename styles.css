@@ -7,6 +7,10 @@ html{
     font-size: 16px;
 }
 
+body{
+    background-color: black;
+}
+
 h1{
     font-size: 2rem;
     font-weight: 700;
@@ -26,7 +30,7 @@ p{
 }
 
 span {
-    color:rgb(231, 231, 231);
+    color:rgb(247, 244, 244);
 }
 
 /*Grid template*/
@@ -35,7 +39,7 @@ span {
     display: grid;
     height:100vh;
     width:100%;
-    background-color:rgb(247, 240, 240); 
+    background-color:rgba(0, 0, 0, 0.767);
     grid-template-columns:  1fr ;
     grid-template-rows: 0.2fr 1.5fr 1fr 1fr 1fr 1fr 0.2fr 0.1fr;
     grid-template-areas:
@@ -47,6 +51,7 @@ span {
     "contact"
     "links"
     "footer";
+    
 }
 
 
@@ -113,8 +118,9 @@ header img{
 section{
     width:calc(100%-2rem);
     padding: 2rem;
-    background-color: rgb(202, 200, 200);
-    
+    background-color: rgba(223, 219, 219, 0.904);
+    border-radius: 20%;
+    box-shadow: 0 0.5rem 1rem hsla(0, 12%, 97%, 0.486), 0rem -0.5rem 1rem  hsla(0, 12%, 97%, 0.486) ;
     
 }
 
@@ -123,6 +129,7 @@ section{
 .skills{
     grid-area: skills;
     margin:1rem 0;
+
 }
 
 .skills p{
@@ -225,16 +232,15 @@ progress-width::after{
 .aboutMe{
     grid-area: aboutMe;
     margin: 1rem 0;
+    background-color: rgb(26, 188, 156);
 }
 .about-me{
     justify-content: center;
     align-content: center;
     border-radius:   3.12rem ;
-    background-color: rgb(26, 188, 156);
     color:rgb(51, 51, 51);/*rgb(187, 185, 185);*/
     padding: 2rem;
     margin: 4rem 0;
-    border-right:3px solid rgb(145, 161, 158);
     text-align:left;
     font-weight: 400;
 }
@@ -285,7 +291,7 @@ progress-width::after{
 
 .card img{
     width: 250px;
-    height: 250px;
+    height: 245px;
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0,0,0, 0.212) ;
     cursor: pointer;
@@ -295,17 +301,19 @@ progress-width::after{
 }
 
 .card:hover img{
-    margin-top: -30px;
+    margin-top: -40px;
 
 }
 
 .card:hover{
     width:260px;
+    height:265px;
 }
 
 .card::before{
-    content: "5.10 climbing shoes";
+    content: "";
     letter-spacing: 0.2em;
+    text-align: left;
     position:absolute;
     bottom: 8px;
     left: 20px;
@@ -317,14 +325,15 @@ progress-width::after{
 
 .pch::before{
     color:rgb(0, 0, 0);
-    content: "Product Card Hover";
+    content: "Product Card Hover- Hover effects -Pseudo classes -effects triggered on hover";
 }
 
 .cb::before{
-    content:"JavaScript Game";
+    content:"JavaScript Game -DOM -EventListener() -Function execution when triggered -Onevent properties";
     color: #010165;
 }
 
+/*
 .ca::before{
     content:"Static Website";
     color: rgb(116, 114, 114);
@@ -333,15 +342,15 @@ progress-width::after{
 .ex::before{
     content:"Landing App Page";
     color: rgb(0, 0, 0);
-}
+}*/
 
 .sb::before{
-    content:"Progress Bar";
+    content:"Progress Bar -Animation -overlapping positioning -Pseudo classes -Keyframes";
     color: rgb(0, 0, 0);
 }
 
 .srs::before{
-    content:"Star Rating System";
+    content:"Star Rating System -Active & checked -transform & transition";
     color: rgb(34, 34, 33);
 }
 
@@ -353,6 +362,8 @@ progress-width::after{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 1rem 0;
+    
 }
 
 .button{
@@ -415,6 +426,7 @@ form{
 .links{
     grid-area: links;
     padding: 0;
+    box-shadow:none;
 }
 
 .social-links  {
@@ -431,6 +443,8 @@ footer{
     color:rgb(51,51,51);
     padding:0;
     text-align: center;
+    background-color: rgba(248, 246, 246, 0.904);
+    
 }
 
 @media only screen and (max-width: 480px) {
@@ -445,7 +459,7 @@ footer{
     }
     
     p{
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
 
     .container{
